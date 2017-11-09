@@ -10,6 +10,7 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>aspectj-aop-utils</module>
+        <module>library-services</module>
     </modules>
 
     <properties>
