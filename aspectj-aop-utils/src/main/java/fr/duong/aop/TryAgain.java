@@ -13,5 +13,5 @@ import java.lang.annotation.*;
 @Inherited
 public @interface TryAgain {
 
-    Class<?> myClasse() default Object.class;
+    Class<? extends Throwable>[] exceptions();
 }
