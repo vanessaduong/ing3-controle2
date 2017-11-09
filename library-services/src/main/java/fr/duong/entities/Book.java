@@ -6,7 +6,7 @@ import javax.persistence.*;
  * @author van.duong
  */
 
-@Entity(name = "Book")
+@Entity()
 @Table(name = "Book")
 public class Book {
 
